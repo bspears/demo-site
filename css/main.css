@@ -1,0 +1,434 @@
+/*****************
+HEADER
+******************/
+
+
+
+/*
+background white colors - fff
+gray bckgrnd colors - ccc
+jcc blue - 87c9fc
+*/
+
+
+.slideIn {
+  animation: slideIn 1s ease-out forwards;
+  -webkit-animation: slideIn 1s ease-out forwards;
+  position: absolute;
+  top: 30px;
+  left: -1800px;
+  font-size: 2.2em;
+}
+
+@-webkit-keyframes slideIn {
+  100% {left: 200px}
+}
+
+@keyframes slideIn {
+  100% {left: 200px}
+}
+
+#whole {
+  clear: both;
+  background: #87c9fc;
+  height: 110%;
+  width: 100%;
+}
+
+body {  
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+  clear: both;
+  height: 100%;
+  width: 100%;
+  background-color: #87c9fc;
+  color: #888;
+  text-align: center;
+  font-size: 1.125em;
+  padding: 0;
+  margin: 0;
+}
+
+/*****************
+Main Nav Bar
+******************/
+
+#bar {
+  max-width: 100%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+/*  background: -webkit-linear-gradient(left,#99ddee, #44bbdd);*/
+}
+
+#bar li {  
+  max-width: 100%;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 0px;
+  margin: 20px 0 0 0;  
+  border-color: black;
+  background-repeat: no-repeat;
+  Background-color: transparent;  
+}
+
+#bar a {
+  color: #fff;
+  background-color: rgba(100,100,100, 0.3);
+  max-width: 100%;
+  position: relative;
+  top: -100px;
+  left: -10px;
+  clear:both;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#bar a:hover {
+  color: #1188ab;
+  background-color: rgba(200,200,200, 0.3);
+}
+
+#bar a.current {
+  background-color: rgba(200,200,200, 0.3);
+}
+
+#log {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  height: 110px;
+  width: 110px;
+  clear: both;
+  margin: -100px 0 0 5px;  
+}
+
+h1 {
+  max-width: 50%;
+  position: relative;
+  top: 5px;
+  left: 150px;
+  text-align: left;
+  font-size: 3rem;
+  margin: 0;
+  color: #555;
+}
+
+h2 {
+  max-width: 50%;
+  position: relative;
+  top: 190px;
+  left: 185px;
+  clear: both;
+  font-size: 2.5rem;
+  text-align: left;
+  margin: 0;
+}
+
+h3 {
+  color: #ddd;
+  float: left;
+  width: 100%;
+  padding: 0 0 5px 0;
+  font-size: 1.3rem;
+}
+
+h4 {  
+  color: #888;
+  width: 70%;
+  font-size: .85rem;
+  text-align: left;
+  font-weight: lighter;
+  border-radius: 10px;
+  margin: 0px;
+  position: relative;
+  left: 25%;
+}
+
+
+/*****************
+Main Content
+******************/
+
+#homeImage {
+  width: 100%;
+  float: left;
+  margin-top: 0px;
+ }
+
+#mainimg { 
+  margin-bottom: 50px;
+  max-width: 100%;
+}
+
+.titleBar {
+  color: #444;
+  width: 100%;
+  font-size: 2em;
+  padding-top: 0px;
+  margin-top: 50px;
+  clear: both;
+}
+
+.titleBar1 {
+  color: #444;
+  font-size: 1.5em;
+  position: absolute;
+  top: 480px;
+  left: 100px;
+}
+
+#statement {
+  color: #555;
+  float: right;
+  clear: both;
+  max-width: 100%;
+  margin-bottom: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#companyDesc {
+  clear: both;
+  background-color: #557f9e;
+  color: #aaa;
+  float: left;
+  font-weight:lighter;    
+  text-align: center;
+  max-width:100%;
+  font-size: 1rem; 
+  padding: 20%;
+  }
+
+
+/*****************
+columns
+******************/
+
+#columns {
+  font-family: 'Arimo', sans-serif;  
+  float: left;
+  clear: both;
+  background-color: #324a5c;
+  padding-bottom: 100px;
+}
+
+#columns h3{
+  font-kerning:normal;
+  font-weight: 300;
+}
+
+.stepimg {
+  max-width: 50%;
+}
+
+#first {
+  float: left;
+  clear:both;
+  width: 21%;
+  padding: 0% 0 0 8%;
+  margin: 0;
+}
+
+#second {
+  float: left;  
+  width: 21%;
+}
+
+#third { 
+  float: left;  
+  width: 21%  
+}
+
+#fourth {
+  float: left;  
+  width: 21%;
+}
+
+
+/*****************
+Bottom
+******************/
+
+h5 {
+  text-align: center;
+  color: #444;
+  padding: 0px 0 0 0;
+  margin: 0 0 -5px 0;
+}
+
+#bottom  {  
+  margin: 0 auto;
+  color: #444;
+  float: none;  
+  font-size: 1.1em;
+  clear: both;
+  width: 100%;
+  height: 3%;  
+}
+
+#bottom li {
+  text-align: center;
+  color: #444;
+  text-decoration: none;
+  font-size: .8em;
+  display: block;
+  line-height: 1.5em;
+  padding-bottom: 0; 
+}
+
+#bottom a {
+  text-align: center;
+  color: #444;
+  text-decoration: none;
+  padding: 0 50px 0 0;
+  margin: 0;
+}
+
+#bottom p {
+  margin: 0 0 0px 0;
+  padding: 50px 0 5px 0;
+}
+
+
+/**********************************
+Social Media Links
+***********************************/
+
+
+
+#socialMedia img {
+  height: 25px;
+  width: 25px;
+}
+
+
+#socialMedia li{  
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#socialMedia {
+  float: right;
+  padding-right: 120px;
+  list-style-type: none;
+}
+
+#socialMedia a {
+  Padding: 0 5px 0 5px;
+}
+
+
+
+/*****************
+footer
+******************/
+
+footer {
+  font-size: .9em;
+  text-align: left;
+  clear: both;
+  color: #9f9f9f;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*****************
+Services page
+******************/
+
+#services {
+  max-width: 100%;
+  text-align: center;
+  background: #87c9fc;
+}
+
+#serviceDescription {
+ color: #333;
+ text-align: center;
+ clear: both;
+ width: 100%; 
+ padding-bottom: 50px;
+}
+
+#serviceList {
+  display: block;
+  text-align: center; 
+}
+
+#serviceDescription ul {
+  list-style-type: none;
+  padding: 50px 0;
+  line-height: 2em;
+  max-width: 100%;
+  text-align: center;
+  background: #557f9e;
+}
+
+#serviceDescription p {
+  font-size: .95em;
+  max-width: 100%;
+  padding: 0 20px;
+  padding-bottom: 70px;
+}
+
+
+/*************************
+CONTACT PAGE
+******************************/
+
+#contactUs {
+  width: 100%;
+  float: left;
+  top: 500px;
+}
+
+#contactUs p {
+  color: #333;
+  font-size: .9em;
+  padding-bottom: 100px;
+}
+
+/********************************
+About Page************************/
+
+
+#about {
+  max-width: 50%;  
+  float: left;
+  clear: both;
+  margin: 0; 
+}
+
+#photoBox {
+  float: left;
+  width: 100%;
+}
+
+#photo {
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+#aboutDescription p {
+ color: #333;
+ color: #333;
+ text-align: center;
+ clear: both;
+ width: 95%;
+ margin:  0 auto;
+ padding: 30px 0 80px 0;
+}
+
+
+
