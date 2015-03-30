@@ -1,0 +1,48 @@
+.coverImg {
+  position: relative;
+}
+
+.siteTitle {
+  font-size: 4em;
+}
+
+.column {
+  width: 100%;
+  padding: 4em;
+}
+
+.stepImg {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.contentBox {
+  padding: 1em;
+}
+
+.textBox {
+  padding: 5em;
+}
+
+.quote {
+  padding: 2em 0;
+}
+
+.logo {
+  width: 35%;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+.socialMedia {
+  margin: 1em 0;
+}
+
+.socialMedia li {
+  display: inline-block;
+}
+
+.socialIcon {
+  width: 10em;
+}

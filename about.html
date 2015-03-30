@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 
-<html> 
-  <head> 
+<html>
+  <head>
     <meta charset="utf-8">
     <title> Jemma Croney Consulting </title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/relative.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/module.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/state.css">
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arimo|Varela+Round' rel='stylesheet' type='text/css'>
     <meta name="port" content="width=device-width" initial-scale="1.0">
   </head>
   <body>
-    <section id="homeImage">
-      <img src="img/blurryhead.jpg" id="mainimg">
-    </section>           
-    <nav id="bar">                       
-      <h1> Jemma Croney Consulting </h1>                       
-      <h2>Educational Business Development</h2>        
-      <h6 class="slideIn">About</h6>           
-      <ul>
-         <li><a href="index.html">Home</a></li>
-         <li><a href="services.html">Services</a></li>
-         <li><a class="current" href="about.html">About</a></li>
-         <li><a href="contact.html">Contact</a></li>                        
-      </ul>
-    </nav>
-    <img src="img/JCCLogo.png" id="log">
-    <div id="wrapper">
-      <div id="services">       
-        <div class="titleBar">About Jemma</div>
-         <div id="aboutDescription">
-          <img src="img/Jheadshot1.jpg" id="photo">
-          <p> Jemma Croney began her career working as a cosmetology educator in the Pacific Northwest. After earning several promotions she achieved a Campus Director role within a large beauty Academy. 
-          Jemma has both her Instructor and Cosmetology license and as Campus Director she operated all aspects of the school business, including monitoring all financials affecting Academy budget and profit margins. She has written and developed curriculum for Cosmetology, Barbering, Nails and Instructor Training Programs. Jemma has experienced success with coaching and mentoring over 50 educational staff members at a time and oversaw education for 300 students on a daily basis. Her expertise includes working closely with inventory vendors to integrate retail product lines, and kit items for staff and student use, as well as maintaining inventory levels for student kits, dispensary supplies and retail lines. She has been an intricate part of creating policies and procedures affecting staff, students and business efficiency. She believes in creating an amazing guest experience for each client that receives services at Beauty schools, and she monitored services performed on 800-1000 guests weekly.
-          </p>
-        </div>
-      </div>  
-    </div>
-    <div id="bottom">
-      <section>
-        <p>&ldquo;Ensuring Quality Education and Maximizing Business Potential&rdquo;             </p>
-        <br>
-        <h5>Contact</h5>
-        <h5>Jemma Croney</h5>  
-        <ul>                          
-          <li><a href="tel://2066052395">Call: (206) 605-2395</a></li>      
-          <li><a href="mailto://jemmacconsulting@outlook.com">Email: jemmacconsulting@outlook.com</a></li>
-        </ul>                      
+    <header>
+      <section class="contentBox">
+        <h1> Jemma Croney Consulting </h1>
+        <h2>Educational Business Development</h2>
       </section>
+      <div class="coverImg">
+        <img src="img/blurryhead.jpg" id="mainimg">
+        <img src="img/JCCLogo.png" class="logo">
+      </div>
+      <nav class="navBar boxGradient">
+        <div class="menuButton" id="menuButton">
+          <div>&equiv;</div>
+        </div>
+        <ul id="navBar">
+          <li class="navLink boxGradient"><a class="current" href="index.html">Home</a></li>
+          <li class="navLink boxGradient"><a href="services.html">Services</a></li>
+          <li class="navLink boxGradient"><a href="about.html">About</a></li>
+          <li class="navLink boxGradient"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="textBox">
+      <h1 class="titleBar">About Jemma</h1>
+      <img src="img/Jheadshot1.jpg" id="photo">
+      <p> Jemma Croney began her career working as a cosmetology educator in the Pacific Northwest. After earning several promotions she achieved a Campus Director role within a large beauty Academy.</p>
+      <p>Jemma has both her Instructor and Cosmetology license and as Campus Director she operated all aspects of the school business, including monitoring all financials affecting Academy budget and profit margins. She has written and developed curriculum for Cosmetology, Barbering, Nails and Instructor Training Programs.</p>
+      <p>Jemma has experienced success with coaching and mentoring over 50 educational staff members at a time and oversaw education for 300 students on a daily basis. Her expertise includes working closely with inventory vendors to integrate retail product lines, and kit items for staff and student use, as well as maintaining inventory levels for student kits, dispensary supplies and retail lines. She has been an intricate part of creating policies and procedures affecting staff, students and business efficiency. She believes in creating an amazing guest experience for each client that receives services at Beauty schools, and she monitored services performed on 800-1000 guests weekly.
+      </p>
     </div>
-    <ul id="socialMedia">
-      <li><a href="https://twitter.com/@jemmacroney"><img src="img/tw.png"></a></li>
-      <li><a href="http://www.linkedin.com/pub/jemma-croney/37/753/896"><img src="img/li.jpg"></a>   </li>
+    <section class="contentBox">
+      <h2>&ldquo;Ensuring Quality Education and Maximizing Business Potential&rdquo;</h2>
+      <h1>Contact</h1>
+      <h2>Jemma Croney</h2>
+      <ul class="contactInfo">
+        <li><a href="tel://2066052395">Call: (206) 605-2395</a></li>
+        <li><a href="mailto://jemmacconsulting@outlook.com">Email: jemmacconsulting@outlook.com</a></li>
+      </ul>
+    </section>
+    <ul class="socialMedia">
+      <li><a href="https://twitter.com/@jemmacroney"><img class="socialIcon" src="img/twitter.png"></a></li>
+      <li><a href="http://www.linkedin.com/pub/jemma-croney/37/753/896"><img class="socialIcon" src="img/linkedin.png"></a></li>
     </ul>
     <footer>
       <p>&copy; 2014 Bennett Spears.</p>
     </footer>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+     <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
