@@ -7,6 +7,11 @@
   padding: 1em 0;
 }
 
+.contentBox {
+  text-align: center;
+  padding: 1em;
+}
+
 .navLink {
   padding: 1em;
   font-size: 2.7em;
@@ -16,7 +21,24 @@
   font-size: 10em;
 }
 
-
 .boxGradient {
   background: linear-gradient(to top, #232323 1%, #333 90%, #555 95%, #666 97%, #555);
+}
+
+
+@media screen and (min-device-width: 60em) {
+
+  .menuButton {
+    display: none;
+  }
+
+  .navBar {
+    background: transparent;
+  }
+
+  .navLink {
+    font-size: 1em;
+    display: inline-block;
+  }
+
 }

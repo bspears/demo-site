@@ -1,0 +1,228 @@
+body {
+  font-family: Karla; }
+
+h1 {
+  font-size: 2.7em;
+  padding: .6em 0; }
+
+h2 {
+  font-size: 1.6em;
+  padding: .6em 0; }
+
+a {
+  color: #000; }
+
+.grid_12, .aboutText {
+  width: 100%;
+  float: left; }
+
+.grid_11 {
+  width: 91.666%;
+  float: left; }
+
+.grid_10 {
+  width: 83.333%;
+  float: left; }
+
+.grid_9 {
+  width: 75%;
+  float: left; }
+
+.grid_8 {
+  width: 66.666%;
+  float: left; }
+
+.grid_7 {
+  width: 58.333%;
+  float: left; }
+
+.grid_6 {
+  width: 50%;
+  float: left; }
+
+.grid_5 {
+  width: 41.666%;
+  float: left; }
+
+.grid_4 {
+  width: 33.333%;
+  float: left; }
+
+.grid_3 {
+  width: 25%;
+  float: left; }
+
+.grid_2 {
+  width: 16.666%;
+  float: left; }
+
+.grid_1 {
+  width: 8.333%;
+  float: left; }
+
+.center {
+  margin: 0 auto;
+  float: none; }
+
+.clearfx:after {
+  content: ' ';
+  display: block;
+  clear: both; }
+
+.clear {
+  clear: both; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span,
+h1, h2, h3, p,
+a, em, img, strong,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article,
+figure, figcaption, footer, header, hgroup,
+menu, nav, section {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-family: 'Varela Round', sans-serif; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  background-color: #87c9fc;
+  color: #fff;
+  text-align: center; }
+
+ol, ul {
+  list-style: none; }
+
+@font-face {
+  font-family: Cicle-strong;
+  src: url("../fonts/Cicle_Gordita.ttf") format("opentype");
+  font-style: bold; }
+@font-face {
+  font-family: Cicle;
+  src: url("../fonts/Cicle_Fina.ttf") format("opentype");
+  font-style: normal; }
+p {
+  padding: .5em 0; }
+
+img {
+  display: block;
+  width: 100%; }
+
+h1 {
+  font-size: 2.7em; }
+
+h2 {
+  font-size: 1.6em; }
+
+p {
+  font-size: 1em; }
+
+.secondaryBack {
+  background-color: #324a5c; }
+
+.navBar {
+  padding: 2em 0; }
+  .navBar a {
+    color: #fff; }
+  .navBar li {
+    font-size: 2.7em;
+    padding: 1em 0; }
+    @media screen and (min-width: 62em) {
+      .navBar li {
+        font-size: 1.6em;
+        display: inline-block;
+        padding: 0 1em; } }
+
+.about {
+  background-image: url(../img/blurryhead.jpg);
+  background-size: cover; }
+
+@media screen and (min-width: 62em) {
+  .aboutText {
+    width: 66.666%; } }
+
+.headshot {
+  display: none; }
+  @media screen and (min-width: 62em) {
+    .headshot {
+      display: block; } }
+
+.coverImg {
+  position: relative; }
+
+.siteTitle {
+  padding: 3em 0; }
+  @media screen and (min-width: 62em) {
+    .siteTitle {
+      position: absolute;
+      top: 15em;
+      left: 1em;
+      z-index: 2;
+      text-align: left; } }
+
+.backgroundImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2; }
+
+@media screen and (min-device-width: 62em) {
+  .colums {
+    flex-direction: row; } }
+
+.column {
+  width: 100%;
+  padding: 5em; }
+  @media screen and (min-device-width: 62em) {
+    .column {
+      width: 24%;
+      display: inline-block;
+      vertical-align: top; } }
+
+.stepImg {
+  width: 75%;
+  margin: 0 auto; }
+
+.textBox {
+  padding: 5em; }
+
+.quote {
+  padding: 2em 0; }
+
+.logo {
+  width: 25%;
+  position: absolute;
+  top: 1em;
+  left: 1em; }
+  @media screen and (min-device-width: 62em) {
+    .logo {
+      width: 10%; } }
+
+.socialMedia {
+  margin: 1em 0; }
+
+.socialMedia li {
+  display: inline-block; }
+
+.socialIcon {
+  width: 10em; }
+  @media screen and (min-device-width: 62em) {
+    .socialIcon {
+      width: 4em; } }
+
+/*# sourceMappingURL=app.css.map */

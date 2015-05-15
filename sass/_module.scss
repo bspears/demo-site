@@ -1,0 +1,38 @@
+.secondaryBack {
+  background-color: $secondaryColor;
+}
+
+.navBar {
+  padding: 2em 0;
+  a {
+    color: $white;
+  }
+  li {
+    font-size: 2.7em;
+    padding: 1em 0;
+    @media screen and (min-width: 62em) {
+      font-size: 1.6em;
+      display: inline-block;
+      padding: 0 1em;
+    }
+  }
+}
+
+.about {
+  background-image: url(../img/blurryhead.jpg);
+  background-size: cover;
+}
+
+.aboutText {
+  @extend .grid_12;
+  @media screen and (min-width: 62em) {
+    width: 66.666%;
+  }
+}
+
+.headshot {
+  display: none;
+  @media screen and (min-width: 62em) {
+    display: block;
+  }
+}

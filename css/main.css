@@ -18,7 +18,6 @@ jcc blue - 87c9fc
   top: 30px;
   left: -1800px;
   font-size: 2.2em;
-  
 }
 
 @-webkit-keyframes slideIn {
@@ -36,9 +35,8 @@ jcc blue - 87c9fc
   width: 100%;
 }
 
-body {  
+body {
   font-family: 'Varela Round', sans-serif;
-  color: #fff;
   clear: both;
   height: 100%;
   width: 100%;
@@ -62,16 +60,16 @@ Main Nav Bar
 /*  background: -webkit-linear-gradient(left,#99ddee, #44bbdd);*/
 }
 
-#bar li {  
+#bar li {
   max-width: 100%;
   display: inline-block;
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 0px;
-  margin: 20px 0 0 0;  
+  margin: 20px 0 0 0;
   border-color: black;
   background-repeat: no-repeat;
-  Background-color: transparent;  
+  Background-color: transparent;
 }
 
 #bar a {
@@ -106,7 +104,7 @@ Main Nav Bar
   height: 110px;
   width: 110px;
   clear: both;
-  margin: -100px 0 0 5px;  
+  margin: -100px 0 0 5px;
 }
 
 h1 {
@@ -139,7 +137,7 @@ h3 {
   font-size: 1.3rem;
 }
 
-h4 {  
+h4 {
   color: #888;
   width: 70%;
   font-size: .85rem;
@@ -162,7 +160,7 @@ Main Content
   margin-top: 0px;
  }
 
-#mainimg { 
+#mainimg {
   margin-bottom: 50px;
   max-width: 100%;
 }
@@ -201,10 +199,10 @@ Main Content
   background-color: #557f9e;
   color: #aaa;
   float: left;
-  font-weight:lighter;    
+  font-weight:lighter;
   text-align: center;
   max-width:100%;
-  font-size: 1rem; 
+  font-size: 1rem;
   padding: 20%;
   }
 
@@ -214,7 +212,7 @@ columns
 ******************/
 
 #columns {
-  font-family: 'Arimo', sans-serif;  
+  font-family: 'Arimo', sans-serif;
   float: left;
   clear: both;
   background-color: #324a5c;
@@ -239,17 +237,17 @@ columns
 }
 
 #second {
-  float: left;  
+  float: left;
   width: 21%;
 }
 
-#third { 
-  float: left;  
-  width: 21%  
+#third {
+  float: left;
+  width: 21%
 }
 
 #fourth {
-  float: left;  
+  float: left;
   width: 21%;
 }
 
@@ -265,14 +263,14 @@ h5 {
   margin: 0 0 -5px 0;
 }
 
-#bottom  {  
+#bottom  {
   margin: 0 auto;
   color: #444;
-  float: none;  
+  float: none;
   font-size: 1.1em;
   clear: both;
   width: 100%;
-  height: 3%;  
+  height: 3%;
 }
 
 #bottom li {
@@ -282,7 +280,7 @@ h5 {
   font-size: .8em;
   display: block;
   line-height: 1.5em;
-  padding-bottom: 0; 
+  padding-bottom: 0;
 }
 
 #bottom a {
@@ -311,7 +309,7 @@ Social Media Links
 }
 
 
-#socialMedia li{  
+#socialMedia li{
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -357,13 +355,13 @@ Services page
  color: #333;
  text-align: center;
  clear: both;
- width: 100%; 
+ width: 100%;
  padding-bottom: 50px;
 }
 
 #serviceList {
   display: block;
-  text-align: center; 
+  text-align: center;
 }
 
 #serviceDescription ul {
@@ -404,10 +402,10 @@ About Page************************/
 
 
 #about {
-  max-width: 50%;  
+  max-width: 50%;
   float: left;
   clear: both;
-  margin: 0; 
+  margin: 0;
 }
 
 #photoBox {

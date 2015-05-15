@@ -4,11 +4,11 @@
 */
 
 html, body, div, span,
-h1, h2, h3, h4, h5, h6, p, blockquote,
+h1, h2, h3, p,
 a, em, img, strong,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-article, aside, canvas, details, embed,
+article,
 figure, figcaption, footer, header, hgroup,
 menu, nav, section {
   box-sizing: border-box;
@@ -21,7 +21,6 @@ menu, nav, section {
   vertical-align: baseline;
   text-decoration: none;
   font-family: 'Varela Round', sans-serif;
-  color: #fff;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -32,26 +31,12 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   background-color: #87c9fc;
-  color:;
+  color: $white;
+  text-align: center;
 }
 
 ol, ul {
   list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 @font-face {
@@ -70,19 +55,7 @@ p {
   padding: .5em 0;
 }
 
-h1 {
-  font-size: 2.7em;
-  padding-bottom: .5em;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
 img {
   display: block;
   width: 100%;
 }
-
-
-

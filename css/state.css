@@ -17,3 +17,10 @@
 .show {
   animation: show 1s;
 }
+
+@media screen and (min-device-width: 60em) {
+
+  .hidden {
+    display: block;
+  }
+}
