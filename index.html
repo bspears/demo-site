@@ -3,6 +3,7 @@
  <head>
     <meta charset="utf-8">
     <title> Jemma Croney Consulting </title>
+    <meta description="Educational consulting services.">
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
@@ -21,10 +22,10 @@
       </div>
       <nav>
         <ul class="navBar">
-          <li class="navLink boxGradient"><a class="current" href="#summary">Summary</a></li>
-          <li class="navLink boxGradient"><a href="#services">Services</a></li>
-          <li class="navLink boxGradient"><a href="#about">About</a></li>
-          <li class="navLink boxGradient"><a href="#contact">Contact</a></li>
+          <li class="navLink boxGradient"><a class="move" href="#summary">Summary</a></li>
+          <li class="navLink boxGradient"><a class="move" href="#services">Services</a></li>
+          <li class="navLink boxGradient"><a class="move" href="#about">About</a></li>
+          <li class="navLink boxGradient"><a class="move" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -73,7 +74,7 @@
         </p>
         <section class="contentBox">
           <h2>Included in the overall assessment of operations, you can expect to receive a review and recommendation in the following areas:</h2>
-          <ul>
+          <ul class="underlinedList">
             <li>Curriculum review &amp; analysis</li>
             <li>Review program structure</li>
             <li>Budget &amp; expense planning</li>
@@ -112,6 +113,22 @@
       <li><a href="https://twitter.com/@jemmacroney"><img class="socialIcon" src="img/twitter.png"></a></li>
       <li><a href="http://www.linkedin.com/pub/jemma-croney/37/753/896"><img class="socialIcon" src="img/linkedin.png"></a></li>
     </ul>
+    <h1>Request to be contacted</h1>
+    <section class="contactForm">
+        <form method="post" action="mail.php">
+          <ul>
+            <li><label for="name">Name:</label></li>
+            <li><input type="text" name="name" minlength="3" required></li>
+            <li><label for="email" required>Email:</label></li>
+            <li><input type="email" name="email"></li>
+            <li><label for="message">Message:</label></li>
+            <li><textarea name="message" maxlength="200"></textarea></li>
+            <li><button type="submit" class="formButton">Submit</button>
+                <button type="reset" class="formButton">Clear</button>
+            </li>
+          </ul>
+        </form>
+      </section>
     <footer>
       <p>&copy; 2014 Bennett Spears.</p>
     </footer>

@@ -162,6 +162,56 @@ p {
     .headshot {
       display: block; } }
 
+.underlinedList li {
+  list-style-type: disc; }
+
+.contactForm {
+  padding: 1em; }
+  .contactForm li {
+    font-size: 1.6em;
+    padding: 1em;
+    display: block; }
+  .contactForm input {
+    padding: .5em;
+    font-size: 2em;
+    color: #888; }
+  .contactForm textarea {
+    resize: none;
+    width: 80%;
+    height: 10em;
+    font-size: 2em;
+    padding: .5em;
+    color: #888; }
+  @media screen and (min-width: 62em) {
+    .contactForm li {
+      padding: .5em;
+      font-size: 1em; }
+    .contactForm input {
+      font-size: 1em; }
+    .contactForm textarea {
+      resize: none;
+      width: 30%;
+      height: 6em;
+      font-size: 1em;
+      padding: .5em; } }
+
+.formButton {
+  font-size: 2.7em;
+  margin: .5em;
+  padding: .5em;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 10px;
+  border: 2px solid #fff; }
+  .formButton:hover {
+    background-color: #55b3fb; }
+  .formButton:active {
+    background-color: #b9dffd; }
+  @media screen and (min-width: 62em) {
+    .formButton {
+      font-size: 1em;
+      margin: 0; } }
+
 .coverImg {
   position: relative; }
 

@@ -36,3 +36,48 @@
     display: block;
   }
 }
+
+.underlinedList {
+  li {
+    list-style-type: disc;
+  }
+}
+
+.contactForm {
+  padding: 1em;
+  li {
+    font-size: 1.6em;
+    padding: 1em;
+    display: block;
+  }
+  input {
+    padding: .5em;
+    font-size: 2em;
+    color: $gray;
+  }
+  textarea {
+      resize: none;
+      width: 80%;
+      height: 10em;
+      font-size: 2em;
+      padding: .5em;
+      color: $gray;
+    }
+
+  @media screen and (min-width: 62em) {
+    li {
+      padding: .5em;
+      font-size: 1em;
+    }
+    input {
+      font-size: 1em;
+    }
+    textarea {
+      resize: none;
+      width: 30%;
+      height: 6em;
+      font-size: 1em;
+      padding: .5em;
+    }
+  }
+}
